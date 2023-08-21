@@ -1,6 +1,6 @@
 sal = float(input("Digite o seu salário bruto: "))
 vale = input("Descontar o vale transporte? ")
-    
+
 
 if sal <1302.00:
     inss = sal*0.075
@@ -30,5 +30,5 @@ elif sal >7507.50:
 if vale == "S" or vale == "s":
     valvale =total*0.06
     print ("O valor do Vale transporte é de: R$", valvale)
-    total = total-valvale
+    total = sal-valvale
     print ("Seu salário liquído com desconto do Vale Transporte é de: R$", total)
